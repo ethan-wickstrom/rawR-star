@@ -1,0 +1,7 @@
+- name: git-cliff - Changelog Generator
+uses: orhun/git-cliff-action@v3.0.2
+with:
+  # config file location
+  config: Cargo.toml
+  # git-cliff arguments
+  args: # optional, default is -v
