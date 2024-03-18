@@ -26,6 +26,7 @@ A concurrent, efficient, and scalable implementation of the R*-tree for spatial 
 │   ├── services/
 │   ├── traits/
 │   ├── utils/
+│   ├── algorithms/
 │   └── bin/
 ├── benches/
 ├── examples/
@@ -43,6 +44,7 @@ A concurrent, efficient, and scalable implementation of the R*-tree for spatial 
   - `/utils`: Utility functions and helpers that don’t fit directly into models or services.
   - `/traits`: Traits that are used to define interfaces or behavior contracts for models and services to implement.
   - `/errors`: Custom error types and error handling logic.
+  - `/algorithms`: Contains the R*-tree implementation.
   - `/bin`: Other executables.
 - `benches` is where benchmarking code goes.
 - `examples` is where example code goes.
