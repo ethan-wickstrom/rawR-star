@@ -1,5 +1,7 @@
 # *raw*R-star
 
+A concurrent, efficient, and scalable implementation of the R*-tree for spatial indexing using Rust.
+
 ## Introduction
 
 ## Installation

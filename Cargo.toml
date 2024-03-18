@@ -1,4 +1,6 @@
 [package]
+authors = ["Ethan Wickstrom <"]
+description = "A concurrent, efficient, and scalable implementation of the R*-tree for spatial indexing using Rust."
 name = "rawR-star"
 version = "0.1.0"
 edition = "2021"
