@@ -15,7 +15,7 @@ jobs:
       - name: Generate a changelog
         uses: orhun/git-cliff-action@v3
         with:
-          config: cliff.toml
+          config: Cargo.toml
           args: --verbose
         env:
           OUTPUT: CHANGELOG.md
@@ -26,4 +26,5 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           set +e
           git add CHANGELOG.md
-          git commit -m "Update changelog"          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git <branch>
+          git commit -m "docs: update changelog"
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git main
